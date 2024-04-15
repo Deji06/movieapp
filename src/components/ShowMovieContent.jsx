@@ -10,7 +10,7 @@ const ShowMovieContent = ({searchMovies, data}) => {
   return (
     <>
     {searchMovies?.map((movie) => (
-      <div className="movie--container" style={{border: '1px solid red'}}>
+      <div className="movie--container" style={{}}>
         <div className="movie--grid">
           <img src={movie.Poster} alt={movie.Title} />
           <p> Title: {movie.Title}</p>
